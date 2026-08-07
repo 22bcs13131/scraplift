@@ -1,155 +1,119 @@
-````markdown
+markdown
+<div align="center">
+
 # ScrapLift
 
-> A modern open-source developer tool for building, managing, and automating web scraping workflows.
+### Modern Web Scraping Infrastructure for Developers
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+Build powerful scraping workflows with an elegant developer experience.
 
-## 🚀 Overview
+<p>
+  <a href="https://github.com/22bcs13131/scraplift/stargazers">
+    <img src="https://img.shields.io/github/stars/22bcs13131/scraplift?style=flat-square" />
+  </a>
+  <img src="https://img.shields.io/github/license/22bcs13131/scraplift?style=flat-square" />
+  <img src="https://img.shields.io/github/issues/22bcs13131/scraplift?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/22bcs13131/scraplift?style=flat-square" />
+</p>
 
-ScrapLift is an open-source developer tool designed to simplify web scraping workflows. It provides a clean, extensible foundation for developers who need to extract, process, and manage web data efficiently.
-
-The project is currently under active development, with a focus on creating a reliable, community-driven ecosystem for scraping and automation.
-
----
-
-## ✨ Features
-
-- ⚡ Simple and developer-friendly API
-- 🕸️ Efficient web scraping workflows
-- 🔧 Modular architecture
-- 📦 Easy integration into existing projects
-- 📖 Clean documentation
-- 🌍 Open-source and community driven
+<p>
+  <strong>Fast.</strong> •
+  <strong>Reliable.</strong> •
+  <strong>Open Source.</strong>
+</p>
 
 ---
 
-## 📦 Installation
+<img width="100%" src="./assets/dashboard.png" alt="ScrapLift Dashboard"/>
+
+</div>
+
+## Why ScrapLift?
+
+ScrapLift is a modern developer toolkit that helps you build, manage, and automate web scraping workflows with minimal boilerplate. Designed for scalability, extensibility, and an excellent developer experience.
+
+---
+
+## Features
+
+| | |
+|:--|:--|
+| ⚡ High Performance | Optimized scraping engine |
+| 🔌 Plugin System | Extend functionality with custom plugins |
+| 🌐 Multi-site Support | Build workflows across websites |
+| 🤖 AI Ready | Designed to integrate with LLMs |
+| 📦 Modular | Clean architecture and reusable components |
+| 🛠 Type Safe | Built with TypeScript |
+
+---
+
+## Quick Start
 
 ```bash
-git clone https://github.com/22bcs13131/scraplift.git
+git clone https://github.com/22bcs13131/scraplift
+
 cd scraplift
-````
 
-Install dependencies:
-
-```bash
-# npm
 npm install
 
-# or pnpm
-pnpm install
-
-# or yarn
-yarn
-```
-
----
-
-## ▶️ Running the Project
-
-```bash
 npm run dev
 ```
 
-For production:
+---
 
-```bash
-npm run build
-npm start
+## Architecture
+
+```text
+Website
+    │
+    ▼
+Scraper Engine
+    │
+    ▼
+Parser
+    │
+    ▼
+Data Pipeline
+    │
+    ▼
+Output
 ```
 
 ---
 
-## 📂 Project Structure
+## Roadmap
 
-```
-scraplift/
-│
-├── src/
-├── public/
-├── docs/
-├── tests/
-├── package.json
-└── README.md
-```
+- [x] Initial release
+- [ ] Plugin Marketplace
+- [ ] Browser Automation
+- [ ] CLI
+- [ ] Cloud Sync
+- [ ] AI-powered extraction
+- [ ] Chrome Extension
 
 ---
 
-## 🛣️ Roadmap
+## Contributing
 
-* [x] Improve scraping performance
-* [x] Plugin system
-* [ ] CLI support
-* [ ] REST API
-* [ ] Dashboard
-* [ ] Docker support
-* [ ] Cloud deployment guides
-
----
-
-## 🤝 Contributing
-
-Contributions are always welcome!
+We welcome every contribution.
 
 1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature/my-feature
-```
-
+2. Create a branch
 3. Commit your changes
-
-```bash
-git commit -m "Add awesome feature"
-```
-
 4. Push your branch
-
-```bash
-git push origin feature/my-feature
-```
-
 5. Open a Pull Request
 
-Please make sure your code follows the project's coding style and includes relevant tests where applicable.
+---
+
+## Star History
+
+> Add using:
+>
+> https://star-history.com
 
 ---
 
-## 🐞 Reporting Issues
+## License
 
-Found a bug or have a feature request?
+MIT © Amit Raj
 
-Please open an issue with:
-
-* Description
-* Steps to reproduce
-* Expected behavior
-* Environment details
-
----
-
-## ❤️ Support
-
-If you find ScrapLift useful, consider giving the repository a ⭐ on GitHub. It helps more developers discover the project.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Maintainer
-
-**Amit Raj**
-
-Building open-source tools for developers.
-
-If you'd like to contribute, feel free to open an issue or submit a pull request.
-
-```
-```
